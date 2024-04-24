@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+}
+.root img {
+  width: 45%;
+  height: 60%;
+  margin-top: 1%;
+  margin-right: 5%;
+}
+@media screen and (max-width: 768px) {
+  .root {
+    flex-direction: column;
+  }
+  .root img {
+    margin: 10% auto;
+  }
+}

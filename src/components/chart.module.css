@@ -1,0 +1,6 @@
+.outer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  margin: 7% 0%;
+}
